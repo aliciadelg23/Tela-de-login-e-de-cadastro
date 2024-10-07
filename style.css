@@ -24,8 +24,7 @@ body {
     width: 750px;
     height: 450px;
     background: transparent;
-    border: 2px solid #0ef;
-    box-shadow: 0 0 25px #0ef ;
+    border: 2px solid rgb(18, 108, 114);
     overflow: hidden;
 }
 
@@ -180,7 +179,7 @@ color: #0ef
     left: 0;
     width: 100%;
     height: 300%;
-    background: linear-gradient(#081b29, #0ef, #081b29, #0ef);
+    background: linear-gradient(#081b29,rgb(15, 104, 110), #081b29,#0f686e);
     z-index: -1;
     transition: .5s;
 }
@@ -199,7 +198,7 @@ top: 0;
 }
 
 .logreg-link p a {
-    color: #0ef;
+    color: #0f686e;
     text-decoration: none;
     font-weight: 600;
 }
@@ -286,8 +285,8 @@ top: 0;
     right: 0;
     width: 850px;
     height: 600px;
-    background: linear-gradient(45deg, #081b29, #0ef);
-    border-bottom: 3px solid #0ef;
+    background: linear-gradient(45deg, #081b29, #0f686e);
+    border-bottom: 3px solid #0f686e;
     transform: rotate(10deg) skewY(40deg);
     transform-origin: bottom right;
     transition: 1.5s ease;
